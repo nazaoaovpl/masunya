@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+}
+
+header {
+  padding: 0 20px;
+  padding-top: 55px;
+}
+
+/* menu */
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu_image {
+  width: 80px;
+}
+
+.menu_logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.menu_logo p {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+}
+
+.menu_link {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.menu_link:hover {
+  transition: all 400ms;
+  color: rgb(190, 148, 200);
+}
+
+/* welcome */
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 55px;
+}
+
+.welcome_text {
+  max-width: 450px;
+  margin-top: 50px;
+}
+
+.welcome_text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.welcome_button {
+  margin-top: 50px;
+  display: inline-block;
+  padding: 20px 60px;
+  background-color: rgb(190, 148, 200);
+  color: #fff;
+  border-radius: 55px;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.welcome_button:hover {
+  transition: all 400ms;
+  color: rgb(190, 148, 200);
+  background-color: #fff;
+  border: 1px solid rgb(190, 148, 200);
+}
